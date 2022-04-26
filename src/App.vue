@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <HelloWorld />
+    <HeaderBox logo="/classic_shop_logo1x.png" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import HeaderBox from "./components/HeaderBox.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    HeaderBox,
+  },
+  data() {
+    return {};
   },
 };
 </script>
