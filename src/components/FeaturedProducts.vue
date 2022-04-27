@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <div class="container mt-5">
+    <div class="margin-bottom container mt-5">
       <!-- Title Center -->
       <div class="text-center">
         <div class="d-flex justify-content-center align-items-center">
@@ -45,7 +45,7 @@
       <!-- /BUTTONS -->
 
       <!-- OUTFITS CONTAINER -->
-      <div class="row mt-5">
+      <div class="row mt-5 pb-5">
         <!-- Outfit 1 hover-->
         <div class="col-3">
           <!-- Container Outfit -->
@@ -233,6 +233,10 @@ export default {
 
 <style scoped lang="scss">
 @import "@/style/variables.scss";
+
+.margin-bottom {
+  margin-bottom: 200px;
+}
 
 .border_bottom {
   border-bottom: 1px solid $edward-color;

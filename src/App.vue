@@ -3,6 +3,8 @@
     <HeaderBox :navbar="navbar" />
     <HeroBox />
     <FeaturedProducts />
+    <CollectionBox />
+    <BestSeller />
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import HeaderBox from "./components/HeaderBox.vue";
 import HeroBox from "./components/HeroBox.vue";
 import FeaturedProducts from "./components/FeaturedProducts.vue";
+import CollectionBox from "./components/CollectionBox.vue";
+import BestSeller from "./components/BestSeller.vue";
 
 export default {
   name: "App",
@@ -17,6 +21,8 @@ export default {
     HeaderBox,
     HeroBox,
     FeaturedProducts,
+    CollectionBox,
+    BestSeller,
   },
   data() {
     return {
