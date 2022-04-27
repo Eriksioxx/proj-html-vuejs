@@ -29,9 +29,11 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faCheckDouble } from '@fortawesome/free-solid-svg-icons'
+
 /* add icons to the library */
 library.add(faUserSecret, faFacebookF, faTwitter, faInstagram, faYoutube, faChevronDown,
-  faCartShopping, faMagnifyingGlass)
+  faCartShopping, faMagnifyingGlass, faCheckDouble)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
