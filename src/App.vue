@@ -1,16 +1,22 @@
 <template>
   <div id="app">
     <HeaderBox :navbar="navbar" />
+    <HeroBox />
+    <FeaturedProducts />
   </div>
 </template>
 
 <script>
 import HeaderBox from "./components/HeaderBox.vue";
+import HeroBox from "./components/HeroBox.vue";
+import FeaturedProducts from "./components/FeaturedProducts.vue";
 
 export default {
   name: "App",
   components: {
     HeaderBox,
+    HeroBox,
+    FeaturedProducts,
   },
   data() {
     return {
