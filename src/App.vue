@@ -8,6 +8,7 @@
     <FreeShipping />
     <NewArrivals />
     <CostumersReview />
+    <OurBlog />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import BestSeller from "./components/BestSeller.vue";
 import FreeShipping from "./components/FreeShipping.vue";
 import NewArrivals from "./components/NewArrivals.vue";
 import CostumersReview from "./components/CostumersReview.vue";
+import OurBlog from "./components/OurBlog.vue";
 
 export default {
   name: "App",
@@ -32,6 +34,7 @@ export default {
     FreeShipping,
     NewArrivals,
     CostumersReview,
+    OurBlog,
   },
   data() {
     return {
