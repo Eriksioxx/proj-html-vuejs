@@ -5,14 +5,11 @@
       <div class="row d-flex justify-content-center text-center mt-5">
         <carousel
           :per-page="1"
-          :navigate-to="someLocalProperty"
           :mouse-drag="true"
           :autoplay="true"
           :autoplayTimeout="2000"
           :loop="true"
           :navigationEnabled="true"
-          :NavigationNextLabel="corda"
-          :NavigationPrevLabel="free"
         >
           <!-- Testimonial 1-->
           <slide>

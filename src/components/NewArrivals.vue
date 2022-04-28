@@ -23,7 +23,6 @@
         <carousel
           class="col-12"
           :per-page="5"
-          :navigate-to="someLocalProperty"
           :mouse-drag="true"
           :autoplay="true"
           :autoplayTimeout="2000"

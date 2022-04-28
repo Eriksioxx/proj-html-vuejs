@@ -23,14 +23,11 @@
         <carousel
           class="col-12"
           :per-page="5"
-          :navigate-to="someLocalProperty"
           :mouse-drag="true"
           :autoplay="true"
           :autoplayTimeout="2000"
           :loop="true"
           :navigationEnabled="true"
-          :NavigationNextLabel="free"
-          :NavigationPrevLabel="free"
         >
           <!-- Outfit 1 -->
           <slide>

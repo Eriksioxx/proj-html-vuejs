@@ -9,6 +9,9 @@
     <NewArrivals />
     <CostumersReview />
     <OurBlog />
+    <SummaryAreas />
+    <BrandLogs />
+    <SubscribeBox />
   </div>
 </template>
 
@@ -22,6 +25,9 @@ import FreeShipping from "./components/FreeShipping.vue";
 import NewArrivals from "./components/NewArrivals.vue";
 import CostumersReview from "./components/CostumersReview.vue";
 import OurBlog from "./components/OurBlog.vue";
+import SummaryAreas from "./components/SummaryAreas.vue";
+import BrandLogs from "./components/BrandLogs.vue";
+import SubscribeBox from "./components/SubscribeBox.vue";
 
 export default {
   name: "App",
@@ -35,6 +41,9 @@ export default {
     NewArrivals,
     CostumersReview,
     OurBlog,
+    SummaryAreas,
+    BrandLogs,
+    SubscribeBox,
   },
   data() {
     return {
