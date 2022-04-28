@@ -18,6 +18,7 @@
       :recentPosts="recentPosts"
       :tagsList="tagsList"
     />
+    <PaymentType />
   </div>
 </template>
 
@@ -35,6 +36,7 @@ import SummaryAreas from "./components/SummaryAreas.vue";
 import BrandLogs from "./components/BrandLogs.vue";
 import SubscribeBox from "./components/SubscribeBox.vue";
 import FooterBox from "./components/FooterBox.vue";
+import PaymentType from "./components/PaymentType.vue";
 
 export default {
   name: "App",
@@ -52,6 +54,7 @@ export default {
     BrandLogs,
     SubscribeBox,
     FooterBox,
+    PaymentType,
   },
   data() {
     return {

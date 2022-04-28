@@ -18,27 +18,27 @@
               :key="item"
             >
               <li>
-                <a class="text-secondary text-decoration-none">
+                <a class="text-white text-decoration-none">
                   {{ item.address }}
                 </a>
               </li>
               <li>
-                <a class="text-secondary text-decoration-none">
+                <a class="text-white text-decoration-none">
                   {{ item.city }}
                 </a>
               </li>
               <li>
-                <a class="text-secondary text-decoration-none">
+                <a class="text-white text-decoration-none">
                   Phone: {{ item.phoneNumber }}
                 </a>
               </li>
               <li>
-                <a class="text-secondary text-decoration-none">
+                <a class="text-white text-decoration-none">
                   Email: {{ item.mail }}
                 </a>
               </li>
               <li>
-                <a class="text-secondary text-decoration-none">
+                <a class="text-white text-decoration-none">
                   Web: {{ item.web }}
                 </a>
               </li>
@@ -46,7 +46,7 @@
           </div>
 
           <!-- SOCIAL ICONS -->
-          <div class="social-icons d-flex text-light">
+          <div class="pt-5 d-flex text-light fs-5">
             <font-awesome-icon icon="fa-brands fa-facebook-f" class="mx-2" />
             <font-awesome-icon icon="fa-brands fa-twitter" class="mx-2" />
             <font-awesome-icon icon="fa-brands fa-instagram" class="mx-2" />
@@ -166,11 +166,7 @@ export default {
     img {
       width: 100%;
     }
-    .social-icons {
-      padding-top: 100px !important;
-    }
   }
-
   .container-tag {
     border: 1px solid $edward-color;
     cursor: pointer;
