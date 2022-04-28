@@ -1,20 +1,20 @@
 <template>
   <div class="container-fluid">
-    <div class="container margin-top">
+    <div class="margin-top">
       <div class="text-center">
         <div class="d-flex justify-content-center align-items-center">
           <!-- Border bottom SX -->
           <div class="border_bottom me-5"></div>
 
           <!-- Title -->
-          <h1 class="fw-bold">Best Seller</h1>
+          <h1 class="fw-bold">New Arrivals</h1>
 
           <!-- Border bottom DX -->
           <div class="border_bottom ms-5"></div>
         </div>
 
         <!-- Details -->
-        <p class="text-muted">Must have products from our top sellers</p>
+        <p class="text-muted">Brand new products from top designers</p>
       </div>
 
       <!-- OUTFITS CONTAINER -->
@@ -28,9 +28,6 @@
           :autoplay="true"
           :autoplayTimeout="2000"
           :loop="true"
-          :navigationEnabled="true"
-          :NavigationNextLabel="free"
-          :NavigationPrevLabel="free"
         >
           <!-- Outfit 1 -->
           <slide>
@@ -159,7 +156,7 @@
 
 <script>
 export default {
-  name: "BestSeller",
+  name: "NewArrivals",
   props: {},
 };
 </script>
@@ -168,7 +165,7 @@ export default {
 @import "@/style/variables.scss";
 
 .margin-top {
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 .border_bottom {

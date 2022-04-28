@@ -6,6 +6,8 @@
     <CollectionBox />
     <BestSeller />
     <FreeShipping />
+    <NewArrivals />
+    <CostumersReview />
   </div>
 </template>
 
@@ -16,6 +18,8 @@ import FeaturedProducts from "./components/FeaturedProducts.vue";
 import CollectionBox from "./components/CollectionBox.vue";
 import BestSeller from "./components/BestSeller.vue";
 import FreeShipping from "./components/FreeShipping.vue";
+import NewArrivals from "./components/NewArrivals.vue";
+import CostumersReview from "./components/CostumersReview.vue";
 
 export default {
   name: "App",
@@ -26,6 +30,8 @@ export default {
     CollectionBox,
     BestSeller,
     FreeShipping,
+    NewArrivals,
+    CostumersReview,
   },
   data() {
     return {

@@ -16,7 +16,8 @@
                 rounded-pill
                 border border-white
                 mb-4
-                px-4 px-2
+                px-4
+                py-2
               "
             >
               VIEW MORE
@@ -38,7 +39,8 @@
                 rounded-pill
                 border border-white
                 mb-4
-                px-4 px-2
+                px-4
+                py-2
               "
             >
               view more
