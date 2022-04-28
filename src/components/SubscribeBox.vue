@@ -34,7 +34,7 @@
         <div class="col-6 d-flex pt-2 ps-5">
           <div class="input-group input">
             <input
-              type="text"
+              type="email"
               class="form-control rounded-pill"
               placeholder="Insert your email"
               aria-label="Username"
