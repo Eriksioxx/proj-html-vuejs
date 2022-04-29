@@ -46,11 +46,17 @@
           </div>
 
           <!-- SOCIAL ICONS -->
-          <div class="pt-5 d-flex text-light fs-5">
-            <font-awesome-icon icon="fa-brands fa-facebook-f" class="mx-2" />
-            <font-awesome-icon icon="fa-brands fa-twitter" class="mx-2" />
-            <font-awesome-icon icon="fa-brands fa-instagram" class="mx-2" />
-            <font-awesome-icon icon="fa-brands fa-youtube" class="mx-2" />
+          <div class="icon-brand pt-5 d-flex text-light fs-5">
+            <font-awesome-icon
+              icon="fa-brands fa-facebook-f"
+              class="icon mx-2"
+            />
+            <font-awesome-icon icon="fa-brands fa-twitter" class="icon mx-2" />
+            <font-awesome-icon
+              icon="fa-brands fa-instagram"
+              class="icon mx-2"
+            />
+            <font-awesome-icon icon="fa-brands fa-youtube" class="icon mx-2" />
           </div>
           <!-- / SOCIAL ICONS -->
         </div>
@@ -179,6 +185,10 @@ export default {
   .fa-star {
     color: #427ed1;
   }
+}
+.icon-brand .icon:hover {
+  transform: scale(1.2);
+  color: red;
 }
 </style>
 

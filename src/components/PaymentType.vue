@@ -63,6 +63,10 @@ export default {};
     img {
       width: 60px;
     }
+
+    img:hover {
+      transform: scale(1.2);
+    }
   }
 }
 </style>
